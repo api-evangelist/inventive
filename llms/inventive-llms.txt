@@ -1,0 +1,31 @@
+# Inventive AI
+
+> Inventive AI is an AI-powered platform that automates responses to RFPs, RFIs, DDQs, and security questionnaires, helping proposal and sales teams respond up to 90% faster with higher win rates. It unifies knowledge from Google Drive, SharePoint, Notion, and Confluence into a single searchable hub and generates context-aware first drafts grounded in verified content. Inventive is a Y Combinator company backed by Sierra Ventures and Wing Venture Capital. It is delivered as a closed SaaS application and does not currently publish a public developer API, SDKs, or developer documentation.
+
+## Product
+
+- [Inventive AI home](https://www.inventive.ai/): RFP/RFI/DDQ/security-questionnaire response automation.
+- [Features](https://www.inventive.ai/features): AI RFP responses, unified knowledge hub, AI content manager, AI agents.
+- [RFP platform](https://www.inventive.ai/solution/rfp-platform): End-to-end proposal response workflow.
+- [Case studies](https://www.inventive.ai/case-studies): Customer outcomes.
+- [Pricing](https://www.inventive.ai/inventive-ai-pricing): Usage-based subscription; custom quote, no public tiers.
+
+## Access
+
+- [Book a demo](https://www.inventive.ai/demo): Sales-led onboarding (no self-serve trial).
+- [Customer login](https://app.inventive.ai/): Application sign-in (WorkOS SSO; Google, Microsoft, Okta via SAML).
+
+## Trust and status
+
+- [Security](https://www.inventive.ai/security): SOC 2 Type II; AES-256 at rest; TLS 1.2 in transit; tenant isolation; zero data retention with OpenAI/Anthropic.
+- [Status](https://status.inventive.ai/): Better Stack status page for Web Application and Backend Systems.
+
+## Legal
+
+- [Terms and conditions](https://www.inventive.ai/terms-and-condition)
+- [Privacy policy](https://www.inventive.ai/privacy)
+
+## Notes
+
+- No public developer API, OpenAPI, SDKs, MCP server, or developer portal are published as of 2026-07-19.
+- Integrations available in-product: Salesforce, Slack, Google Drive, SharePoint, Notion, Confluence, Jira, Zendesk.

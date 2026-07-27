@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.inventive.ai/
+status_page: https://status.inventive.ai/
+status_page_provider: Better Stack
+status_components:
+- name: Web Application
+  status: operational
+- name: Backend Systems
+  status: operational
+versioning: null
+deprecation: null
+sla: null
+notes: Inventive AI is a closed SaaS product with no public developer API, so there
+  is no published API versioning or deprecation policy. A public service status page
+  (Better Stack) tracks the Web Application and Backend Systems uptime.

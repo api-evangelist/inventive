@@ -1,9 +1,28 @@
 aid: inventive
 name: Inventive
-description: 'Inventive is a company surfaced as a portfolio company of sierra-ventures, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Inventive AI is an AI-powered platform that automates responses to RFPs,
+  RFIs, DDQs, and security questionnaires, helping proposal and sales teams respond
+  up to 90% faster with higher win rates. It unifies knowledge from sources like Google
+  Drive, SharePoint, Notion, and Confluence into a single searchable content hub,
+  generates context-aware first drafts grounded in verified content, flags gaps rather
+  than fabricating answers, and applies AI agents for competitive research, content
+  management, and response refinement. Inventive is a Y Combinator company backed by
+  Sierra Ventures and Wing Venture Capital. The product is delivered as a closed SaaS
+  application with SSO and integrations; it does not currently publish a public developer
+  API, SDKs, or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/inventive/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/663e3e44e853521ec90f3950/67a24ce8304d056a847bd96e_Open%20Graph%20Inventive%20AI.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- RFP
+- Proposal Automation
+- Sales Enablement
+- Questionnaire
+- Knowledge Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +50,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://inventive.ai/
+  url: https://www.inventive.ai/
+- type: Pricing
+  url: https://www.inventive.ai/inventive-ai-pricing
+- type: Blog
+  url: https://www.inventive.ai/blog
+- type: SignUp
+  url: https://www.inventive.ai/demo
+- type: Login
+  url: https://app.inventive.ai/
+- type: TermsOfService
+  url: https://www.inventive.ai/terms-and-condition
+- type: PrivacyPolicy
+  url: https://www.inventive.ai/privacy
+- type: StatusPage
+  url: https://status.inventive.ai/
+- type: Compliance
+  url: https://www.inventive.ai/security
+- type: TrustCenter
+  url: security/inventive-trust-center.yml
+- type: Lifecycle
+  url: lifecycle/inventive-lifecycle.yml
+- type: DomainSecurity
+  url: security/inventive-domain-security.yml
+- type: LLMsTxt
+  url: llms/inventive-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

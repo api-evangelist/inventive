@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+source: https://www.inventive.ai/security
+url: https://www.inventive.ai/security
+certifications:
+- SOC 2 Type II
+compliance_notes:
+- Independent SOC 2 Type II audit completed, benchmarked against the five trust
+  service principles (security, availability, processing integrity, confidentiality,
+  privacy).
+- Zero data retention agreements with OpenAI and Anthropic; customer data is not
+  used to train or fine-tune generalized/non-personalized AI or ML models.
+- AES-256 encryption at rest; TLS 1.2 in transit; HTTPS enforced across services.
+- Tenant data isolation by design; dedicated VPCs for production/staging across
+  multiple availability zones.
+- 2FA for staff access, role-based access controls, SSO via SAML (Google, Microsoft,
+  Okta).
+- Regular vulnerability scanning and penetration testing.
+cloud_provider_compliance:
+- SOC 1
+- SOC 2
+- ISO 27001
+- PCI DSS Level 1
+evidence:
+- source: https://www.inventive.ai/security
+  keywords:
+  - soc 2 type ii
+  - encryption
+  - penetration testing
+  - data isolation
+notes: No dedicated trust portal (Vanta/Drata/SafeBase) subdomain found; certifications
+  are published on the public /security page. No bug bounty or responsible-disclosure
+  program advertised.
