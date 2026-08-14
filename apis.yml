@@ -32,7 +32,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-08-14'
 tags:
 - Company
 - Ai
@@ -75,8 +75,44 @@ common:
   url: security/inventive-domain-security.yml
 - type: LLMsTxt
   url: llms/inventive-llms.txt
+- type: Support
+  url: https://www.inventive.ai/contact-information
+- type: Plans
+  url: plans/inventive-plans-pricing.yml
 x-enrichment:
-  date: '2026-07-19'
-  status: backfilled
+  date: '2026-08-14'
+  status: minimal
+  artifacts_added: 2
   pass: local-v1
-  note: backfilled from .gitignore signal + verified work evidence
+  note: >-
+    Contract discovery (STEP 0b) re-run against every host — www, app, status,
+    help, plus api./docs./developer./developers./mcp. subdomains that do not
+    resolve. No OpenAPI, Swagger, GraphQL, MCP endpoint or A2A agent card
+    exists. Real finds this pass: Inventive publishes its own /llms.txt on
+    www.inventive.ai (saved verbatim, upgrading that artifact from generated to
+    searched) and publishes a pricing floor. help.inventive.ai serves a
+    security.txt and llms.txt that belong to NOTION, not Inventive — rejected on
+    ownership.
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Inventive AI ships a closed SaaS proposal-response product with no developer
+    program of any kind — www.inventive.ai/api, /developers and /docs all 404,
+    the sitemap lists 60+ marketing and solution pages but not one developer
+    page, the integrations page names twelve SaaS connectors (Salesforce, Slack,
+    Google Drive, SharePoint, Notion, Confluence, Jira, Zendesk, HubSpot, Teams,
+    OneDrive, Okta) without mentioning an API, API key or webhook, and no
+    api./docs./developer. subdomain resolves in DNS.
+  evidence:
+  - url: https://www.inventive.ai/api
+    status: 404
+  - url: https://www.inventive.ai/developers
+    status: 404
+  - url: https://www.inventive.ai/openapi.json
+    status: 404
+  - url: https://www.inventive.ai/.well-known/agent-card.json
+    status: 404
+  - url: https://www.inventive.ai/llms.txt
+    status: 200
+  checked: '2026-08-14'
