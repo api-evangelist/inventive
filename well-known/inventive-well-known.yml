@@ -1,0 +1,109 @@
+generated: '2026-08-14'
+method: probed
+source: live GET of /.well-known/* on every host in apis.yml
+note: >-
+  Every /.well-known/ path on Inventive AI's own primary host (www.inventive.ai)
+  returned 404. No WellKnown or SecurityTxt pointer is emitted in apis.yml,
+  because nothing on a host Inventive controls returned a real document. Two
+  other hosts answer 200 for these paths but neither is a hit: app.inventive.ai
+  is a WorkOS-branded Next.js single-page app whose catch-all returns the same
+  HTML shell for every path, and status.inventive.ai is a hosted Better Stack
+  status page that does the same. help.inventive.ai is a Notion Sites
+  deployment on Inventive's subdomain; it does serve a real security.txt and a
+  real llms.txt, but both are NOTION's platform boilerplate (Contact/Policy
+  point at notion.so, the llms.txt describes Notion the product), so they are
+  recorded here as rejected on ownership rather than saved as Inventive
+  artifacts.
+hosts:
+- host: https://www.inventive.ai
+  owned: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/mcp.json
+    status: 404
+- host: https://app.inventive.ai
+  owned: true
+  verdict: spa-catch-all
+  note: >-
+    Returns HTTP 200 with an HTML document (Next.js app shell, WorkOS-hosted
+    auth branding) for every /.well-known/* path probed. Treated as a miss on
+    all paths, not a hit.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    hit: false
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: text/html
+    hit: false
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    content_type: text/html
+    hit: false
+  - path: /.well-known/api-catalog
+    status: 200
+    content_type: text/html
+    hit: false
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    content_type: text/html
+    hit: false
+  - path: /.well-known/agent-card.json
+    status: 200
+    content_type: text/html
+    hit: false
+  - path: /.well-known/agent.json
+    status: 200
+    content_type: text/html
+    hit: false
+- host: https://status.inventive.ai
+  owned: false
+  operator: Better Stack (hosted status page)
+  verdict: spa-catch-all
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    hit: false
+  - path: /.well-known/agent-card.json
+    status: 200
+    content_type: text/html
+    hit: false
+- host: https://help.inventive.ai
+  owned: false
+  operator: Notion Sites (CNAME on Inventive's subdomain)
+  verdict: platform-boilerplate-not-owned
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/plain
+    hit: false
+    rejected_reason: >-
+      Body is Notion's own security.txt — Contact and Policy both point at
+      notion.so/Responsible-Disclosure-Policy-5f18bb6b86804eaf989c006131778b9c.
+      It documents Notion's disclosure program, not Inventive's.
+  - path: /llms.txt
+    status: 200
+    content_type: text/plain
+    hit: false
+    rejected_reason: >-
+      Body is Notion's own llms.txt ("Notion is the connected workspace...")
+      linking notion.com product pages. Not an Inventive document.
+  - path: /.well-known/agent-card.json
+    status: 404

@@ -1,0 +1,45 @@
+generated: '2026-08-14'
+method: searched
+source: https://www.inventive.ai/inventive-ai-pricing
+docs: https://www.inventive.ai/inventive-ai-pricing
+currency: USD
+model: usage-based
+plan_count: 1
+notes: >-
+  Inventive AI publishes a single, undifferentiated commercial plan rather than
+  a tier ladder — the pricing page states plainly that every feature is included
+  in one plan with no tiered upgrades or add-ons. The only published number is a
+  floor: "Plans start at $10K/year". The billable unit is the response project
+  (an RFP or security questionnaire), sold as a fixed platform fee plus a
+  purchased volume of RFPs/SecQs, with unused volume rolling over monthly and
+  annually. Seats are not a billing axis — users are unlimited. Actual price is
+  quoted by sales after a 15-minute pricing call, so no per-unit rate, overage
+  rate, or quota figure is published. There is no self-serve checkout, no free
+  tier, and no public trial.
+plans:
+- name: Inventive AI (single plan)
+  price: null
+  price_floor: 10000
+  currency: USD
+  period: year
+  price_note: >-
+    "Plans start at $10K/year" is the only figure published; the actual price is
+    a custom quote sized to RFP/SecQ volume.
+  billing:
+    fixed_platform_fee: true
+    fixed_platform_fee_amount: null
+    usage_component: per RFP and per security questionnaire (SecQ)
+    seats: unlimited
+    rollover: Unused RFPs roll over monthly and yearly
+  quota: null
+  overage: null
+  limits: []
+  features_note: All features included; no tiered upgrades or add-ons.
+  signup: sales-led
+  signup_url: https://www.inventive.ai/demo
+  trial: false
+  free_tier: false
+x-evidence:
+- url: https://www.inventive.ai/inventive-ai-pricing
+  http_status: 200
+  fetched: '2026-08-14'

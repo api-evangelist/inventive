@@ -1,31 +1,89 @@
+# method: searched
+# source: https://www.inventive.ai/llms.txt
+# generated: 2026-08-14
+# http_status: 200 (content-type: text/plain; charset=utf-8, 4204 bytes)
+# Saved VERBATIM below this header. Published by Inventive AI on its own primary host.
+
 # Inventive AI
 
-> Inventive AI is an AI-powered platform that automates responses to RFPs, RFIs, DDQs, and security questionnaires, helping proposal and sales teams respond up to 90% faster with higher win rates. It unifies knowledge from Google Drive, SharePoint, Notion, and Confluence into a single searchable hub and generates context-aware first drafts grounded in verified content. Inventive is a Y Combinator company backed by Sierra Ventures and Wing Venture Capital. It is delivered as a closed SaaS application and does not currently publish a public developer API, SDKs, or developer documentation.
+> AI RFP Software & AI RFP Agent
 
-## Product
+Inventive AI is an AI-powered platform that revolutionizes the RFP (Request for Proposal) process, helping organizations win more proposals with AI agents that optimize RFP workflows and improve win rates by 50%+.
 
-- [Inventive AI home](https://www.inventive.ai/): RFP/RFI/DDQ/security-questionnaire response automation.
-- [Features](https://www.inventive.ai/features): AI RFP responses, unified knowledge hub, AI content manager, AI agents.
-- [RFP platform](https://www.inventive.ai/solution/rfp-platform): End-to-end proposal response workflow.
-- [Case studies](https://www.inventive.ai/case-studies): Customer outcomes.
-- [Pricing](https://www.inventive.ai/inventive-ai-pricing): Usage-based subscription; custom quote, no public tiers.
+## Product Overview
 
-## Access
+Inventive AI is a comprehensive AI RFP software platform that automates and enhances the entire RFP response process. The platform combines proprietary AI systems with intelligent agents to transform how organizations approach proposal writing and management.
 
-- [Book a demo](https://www.inventive.ai/demo): Sales-led onboarding (no self-serve trial).
-- [Customer login](https://app.inventive.ai/): Application sign-in (WorkOS SSO; Google, Microsoft, Okta via SAML).
+## Key Features
 
-## Trust and status
+### AI-Powered RFP Response Generation
+- **10X Faster Drafts**: Generate first drafts 10 times faster with highly accurate responses rooted in your knowledge sources
+- **Automated Answers**: Import RFPs and generate compliant draft responses in seconds with one-click functionality
+- **90%+ Accuracy**: Achieve over 90% accuracy by leveraging historical RFP data, approved content libraries, and real-time feedback
 
-- [Security](https://www.inventive.ai/security): SOC 2 Type II; AES-256 at rest; TLS 1.2 in transit; tenant isolation; zero data retention with OpenAI/Anthropic.
-- [Status](https://status.inventive.ai/): Better Stack status page for Web Application and Backend Systems.
+### Centralized Knowledge Management
+- **Single Hub for Knowledge Sources**: Centralized repository for all knowledge sources including previous RFPs, documents, and data systems
+- **Multiple Integrations**: Connect with Google Drive, SharePoint, Notion, Confluence, Jira, Slack, Salesforce, and more
+- **Q&A Import**: Upload Q&A from legacy tools, spreadsheets, and website information
+- **Live Integrations**: Continuously updated answers via live integrations with CRM, databases, and collaboration tools
 
-## Legal
+### AI Content Intelligence
+- **AI Content Manager**: Proactively flags conflicting content and identifies issues within knowledge sources
+- **In-Proposal Conflict Detection**: Automatically spots inconsistencies in RFP responses to ensure cohesive proposals
+- **Source Transparency**: View exactly where every passage from generated responses originated for verification and compliance
 
-- [Terms and conditions](https://www.inventive.ai/terms-and-condition)
-- [Privacy policy](https://www.inventive.ai/privacy)
+### Collaboration & Productivity Tools
+- **AI Agents Suite**: Multiple AI agents for competitor research, brainstorming, clarifying requirements, and identifying competitive differentiators
+- **Team Collaboration**: Add teammates with customizable permission controls, assign tasks, and leave comments
+- **Project Management**: Streamlined management within a single platform
 
-## Notes
+## Performance Metrics
 
-- No public developer API, OpenAPI, SDKs, MCP server, or developer portal are published as of 2026-07-19.
-- Integrations available in-product: Salesforce, Slack, Google Drive, SharePoint, Notion, Confluence, Jira, Zendesk.
+- **50% Higher Win Rates**: Proven improvement in proposal success rates
+- **90% Faster Response Time**: Significant reduction in time to complete RFP responses  
+- **70% More Efficiency**: Overall workflow efficiency improvements
+
+## Technology & Security
+
+### AI Architecture
+- Built from the ground up with proprietary technology (not just ChatGPT integration)
+- Blend of advanced LLMs and proprietary AI Agents designed for specific RFP tasks
+- AI-powered confidence ratings to identify gaps where additional input may be needed
+- Safeguards against AI hallucinations - clearly flags content gaps instead of generating fabricated responses
+
+### Security & Compliance
+- End-to-end encryption
+- SOC 2 compliance
+- Role-based access controls
+- GDPR and CCPA standards adherence
+- Data never shared with third parties
+
+## Integration Capabilities
+
+Seamlessly integrates with popular business tools including:
+- **CRM Platforms**: HubSpot, Salesforce
+- **Collaboration Tools**: Slack, Notion, Confluence
+- **File Storage**: Google Drive, SharePoint, OneDrive
+- **Project Management**: Jira
+- **And more business applications**
+
+## Target Users
+
+Inventive AI serves organizations of all sizes that regularly respond to RFPs, including:
+- Sales teams looking to improve proposal win rates
+- Business development professionals
+- Marketing teams involved in RFP responses
+- Organizations seeking to streamline their proposal processes
+- Companies wanting to leverage AI for competitive advantage in bidding
+
+## Company Information
+
+- Backed by industry leaders including General Catalyst and Y Combinator
+- Focus on transforming RFP workflows through AI automation
+- Emphasis on accuracy, efficiency, and collaboration in proposal management
+
+## Getting Started
+
+- Book a demo available on the website
+- Quick implementation compared to traditional RFP solutions
+- Seamless integration with existing knowledge sources and workflows
