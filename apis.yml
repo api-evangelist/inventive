@@ -51,7 +51,7 @@ tags:
 - Proposal Automation
 - Sales Enablement
 - Questionnaire
-- Knowledge-Management
+- Knowledge Management
 - Software-as-a-Service
 tags_raw:
 - Company
@@ -62,6 +62,7 @@ tags_raw:
 - Questionnaire
 - Knowledge Management
 - SaaS
+- Knowledge-Management
 apis: []
 maintainers:
 - FN: Kin Lane
