@@ -43,3 +43,17 @@ x-evidence:
 - url: https://www.inventive.ai/inventive-ai-pricing
   http_status: 200
   fetched: '2026-08-14'
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Inventive AI (single plan)
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods:
+    - year
