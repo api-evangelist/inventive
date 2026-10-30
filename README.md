@@ -64,11 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Inventive AI is an AI-powered platform that automates responses to RFPs, RFIs, DDQs, and security questionnaires, helping proposal and sales teams respond up to 90% faster with higher win rates. It unifies knowledge from Google Drive, SharePoint, Notion, and Confluence into a single searchable content hub and generates context-aware first drafts grounded in verified content.
+Inventive AI is an AI-powered platform that automates responses to RFPs, RFIs, DDQs, and security questionnaires, helping proposal and sales teams respond up to 90% faster with higher win rates. It unifies knowledge from sources like Google Drive, SharePoint, Notion, and Confluence into a single searchable content hub, generates context-aware first drafts grounded in verified content, flags gaps rather than fabricating answers, and applies AI agents for competitive research, content management, and response refinement. Inventive is a Y Combinator company backed by Sierra Ventures and Wing Venture Capital. The product is delivered as a closed SaaS application with SSO and integrations; it does not currently publish a public developer API, SDKs, or developer documentation.
 
-Inventive is a Y Combinator company backed by Sierra Ventures and Wing Venture Capital. It is delivered as a closed SaaS application (WorkOS SSO; Salesforce, Slack, Google Drive, SharePoint, Notion, Confluence, Jira, Zendesk integrations) and does not currently publish a public developer API, SDKs, or developer documentation.
+**Areas:** Company · Artificial Intelligence · RFP · Proposal Automation · Sales Enablement · Questionnaire · Knowledge Management · Software-as-a-Service
 
-- Website: https://www.inventive.ai/
-- Security (SOC 2 Type II): https://www.inventive.ai/security
-- Status (Better Stack): https://status.inventive.ai/
-- Backed by: sierra-ventures, wing-venture-capital
+## Inventive on APIs.io
+
+Everything profiled for Inventive is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/inventive/](https://apis.io/providers/inventive/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Inventive Domain Security](https://apis.io/security/inventive/inventive-domain-security/)
+- [Inventive Trust Center](https://apis.io/security/inventive/inventive-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Inventive Plans Pricing](https://apis.io/plans/inventive/inventive-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.inventive.ai/)
+- [Pricing](https://www.inventive.ai/inventive-ai-pricing)
+- [Sign up](https://www.inventive.ai/demo)
+- [Support](https://www.inventive.ai/contact-information)
+- [Blog](https://www.inventive.ai/blog)
+- [Compliance](https://www.inventive.ai/security)
+- [Terms of service](https://www.inventive.ai/terms-and-condition)
+- [Privacy policy](https://www.inventive.ai/privacy)
+- [Status](https://status.inventive.ai/)
+
+## API Evangelist rating
+
+**Kin Score 24.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 81.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/inventive/](https://apis.io/providers/inventive/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Inventive: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/inventive/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
